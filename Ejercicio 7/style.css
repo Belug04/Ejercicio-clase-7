@@ -72,7 +72,7 @@ header{
 .caja9{
     background-color: skyblue;
 }
-@media all and(max-width:320px) 
+@media all and (max-width:320px) 
 {
     .caja1{
         background-color: skyblue;
@@ -114,7 +114,7 @@ header{
         grid-template-rows: repeat(9,100px);
     }
 }
-@media only screen and(min-width:321px) and(max-width:768px) 
+@media only screen and (min-width:321px) and (max-width:768px) 
 {
     .caja1{
         background-color: blue;
@@ -144,6 +144,7 @@ header{
         background-color: aqua;
     }
     .contenedor{
+        display: grid;
         grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(5,100px);
         gap: 100px;
